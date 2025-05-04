@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>SkillNest - Free Programming Courses</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>SkillNest</h1>
+  <p>A Smarter Way to Skill Up.</p>
+  <nav>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="courses" aria-label="Courses offered by SkillNest">
+    <!-- Course cards inserted by script -->
+  </section>
+
+  <section id="contact" aria-label="Contact SkillNest" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have questions or suggestions, feel free to email us at:</p>
+    <p><a href="mailto:gochhwalparth@gmail.com" class="email-link">SkillNest</a></p>
+  </section>
+</main>
+
+<!-- Enrollment Modal -->
+<div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1" id="enrollModal">
+  <div class="modal-content">
+    <h2 id="modal-title">Enrollment Confirmed!</h2>
+    <p>You have successfully enrolled for the course.</p>
+    <button id="closeModalBtn" aria-label="Close enrollment confirmation dialog">Close</button>
+  </div>
+</div>
+
+<footer>
+  &copy; 2024 SkillNest - All courses are completely free. Happy learning!
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
